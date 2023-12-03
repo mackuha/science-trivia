@@ -12,7 +12,7 @@ export const gifs = [
   [
     {
       text: "It's a start, and every journey has a beginning.",
-      img: "/gifs/nod.gif",
+      img: "gifs/nod.gif",
     },
     {
       text: "There's always another chance!",
