@@ -11,7 +11,7 @@ function Footer() {
       Designed and coded by{" "}
       <a
         className="font-bold hover:text-yellow-300"
-        href="https://github.com/mackuha?tab=repositories"
+        href="https://github.com/mackuha"
         target="_blank"
       >
         Marc Fernand Dimacuha
