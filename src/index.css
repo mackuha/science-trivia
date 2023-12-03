@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-main bg-stone-900 text-white;
+  }
+
+  h3 {
+    @apply text-lg font-bold;
+  }
+
+  p {
+    @apply text-stone-300;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply block w-full cursor-pointer rounded-xl bg-yellow-300 px-8 py-3 text-lg font-extrabold text-yellow-950 transition hover:-translate-y-1 hover:bg-yellow-500 md:w-auto;
+  }
+}
